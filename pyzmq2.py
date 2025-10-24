@@ -6,10 +6,11 @@ import sys
 import random
 
 # Configuración de red
-SERVIDOR_IP = "0.0.0.0"  # Escuchar en todas las interfaces
+# SERVIDOR_IP = "0.0.0.0"  # Escuchar en todas las interfaces
+# HEARTBEAT_PORT = "5557"
+
 SERVIDOR_PORT = "5555"
 CHAT_PORT = "5556"
-HEARTBEAT_PORT = "5557"
 
 class Servidor(threading.Thread):
     """Servidor que maneja múltiples clientes simultáneamente"""
